@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&display=swap');
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header{ text-align: right;
+  text-decoration: solid antiquewhite;}
+body {
+  background-color:  hsl(0, 0%, 95%);
+}
+main {
+  width: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ h2{
+  font-family: 'Big Shoulders Text', cursive;
+   font-weight: 700;
+  color:  hsl(0, 0%, 95%);
+  margin-bottom: 30px;
+}
+p{
+  font-size: 15px;
+  font-family:'Lexend Deca',sans-serif;
+  font-weight: 400;
+  color:  hsla(0, 0%, 100%, 0.75);
+ }
+ .first_content{
+  background-color:  hsl(31, 77%, 52%);
+  padding-top: 4em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-image: url(icon-sedans.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+.second_content{
+  background-color:   hsl(184, 100%, 22%);
+  padding-top: 4em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-image: url(icon-suvs.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.third_content{
+  background-color:  hsl(179, 100%, 13%)  ;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-image: url(icon-luxury.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+button.first{
+  color:  hsl(31, 77%, 52%); 
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 12px 28px;
+  border-color: hsl(31, 77%, 52%) ;
+}
+.first:hover{
+  background-color: hsl(31, 77%, 52%) ;
+  color: aliceblue;
+}
+button.second{
+  color:   hsl(184, 100%, 22%); 
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 12px 28px;
+  border-color:  hsl(184, 100%, 22%) ;
+}
+.second:hover{
+  background-color:  hsl(184, 100%, 22%) ;
+  color: aliceblue;
+}
+button.third{
+  color:   hsl(179, 100%, 13%); 
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 12px 28px;
+  border-color: hsl(179, 100%, 13%) ;
+}
+.third:hover{
+  background-color:  hsl(179, 100%, 13%) ;
+  color: aliceblue;
+}
