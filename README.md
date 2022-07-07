@@ -1,2 +1,0 @@
-# zuri_training
-TASK
